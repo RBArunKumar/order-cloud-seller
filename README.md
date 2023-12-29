@@ -10,7 +10,11 @@ ease of developing content and commerce in a single solution.
 
 1. Start by locating the .env.example file and rename it to .env.local
    within the .env.local file you will replace line 6 and replace it with your website name that is
-   identified in XMC. On line 27 you will fix the API Key to match what you set up in Sitecore Deploy
+   identified in XMC. On line 27 you will fix the API Key to match what you set up in Sitecore Deploy.
+   Depending on which team you are you will either use
+   regal-consumer
+   or
+   regal-business
 
    '''
    Fix website name:
