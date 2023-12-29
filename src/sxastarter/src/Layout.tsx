@@ -67,7 +67,7 @@ const Layout = ({ layoutData }: LayoutProps): JSX.Element => {
   const fields = route?.fields as RouteFields;
   const isPageEditing = layoutData.sitecore.context.pageEditing;
   const mainClassPageEditing = isPageEditing ? 'editing-mode' : 'prod-mode';
-  const { query } = useRouter();
+  //const { query } = useRouter();
   //Query used to allow a developer to add a querystring to add padding to the chakra components while in pages
 
   return (
@@ -78,7 +78,13 @@ const Layout = ({ layoutData }: LayoutProps): JSX.Element => {
           <Head>
             <title>{fields?.Title?.value?.toString() || 'Page'}</title>
             <link rel="icon" href={`${publicUrl}/favicon.ico`} />
-            {query.addstyles ? <link rel="stylesheet" href={`${publicUrl}/editingcss.css`} /> : ''}
+            {/* {query.addstyles ? <style type="text/css">
+                .editing-mode.grid { border: '10px solid #cccc'; margin: '10px';}
+                .editing-mode.griditem: { border: '10px solid #cccc'; margin: '10px'}
+                .editing-mode.hstack: { border: '10px solid #cccc'; margin: '10px'}
+                .editing-mode.vstack: { border: '10px solid #cccc';  margin: '10px'}
+                .editing-mode.chakra-container: { border: '10px solid #cccc'; margin: '10px'}
+                </style> : ''} */}
           </Head>
 
           {/* root placeholder for the app, which we add components to using route data */}

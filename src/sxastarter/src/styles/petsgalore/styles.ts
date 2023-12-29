@@ -85,28 +85,28 @@ export const styles = {
       },
 
       // Moved to the edintcss.css file and used with a querystring to get to show up
-      //   '.editing-mode': {
-      //     '.grid': {
-      //       border: '10px solid #cccc',
-      //       margin: '10px',
-      //     },
-      //     '.griditem': {
-      //       border: '10px solid #cccc',
-      //       margin: '10px',
-      //     },
-      //     '.hstack': {
-      //       border: '10px solid #cccc',
-      //       margin: '10px',
-      //     },
-      //     '.vstack': {
-      //       border: '10px solid #cccc',
-      //       margin: '10px',
-      //     },
-      //     '.chakra-container': {
-      //       border: '10px solid #cccc',
-      //       margin: '10px',
-      //     },
-      //   },
+      '.editing-mode': {
+        '.grid': {
+          border: '10px solid #cccc',
+          margin: '10px',
+        },
+        '.griditem': {
+          border: '10px solid #cccc',
+          margin: '10px',
+        },
+        '.hstack': {
+          border: '10px solid #cccc',
+          margin: '10px',
+        },
+        '.vstack': {
+          border: '10px solid #cccc',
+          margin: '10px',
+        },
+        '.chakra-container': {
+          border: '10px solid #cccc',
+          margin: '10px',
+        },
+      },
     },
   },
 };
