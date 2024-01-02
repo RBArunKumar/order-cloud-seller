@@ -84,7 +84,7 @@ export const Default = (props: ComponentProps): JSX.Element => {
   }));
 
   const cookies = new Cookies();
-  let currentcheckoutflow = '/check-out-points';
+  let currentcheckoutflow = '/check-out';
   if (cookies.get('currentcheckoutflow') !== null) {
     currentcheckoutflow = cookies.get('currentcheckoutflow');
   }
@@ -94,7 +94,7 @@ export const Default = (props: ComponentProps): JSX.Element => {
     const checkout_cookie = cookies.get('currentcheckoutflow');
     if (!checkout_cookie) {
       //console.log("Added new cookie")
-      cookies.set('currentcheckoutflow', '/check-out-points', {
+      cookies.set('currentcheckoutflow', '/check-out', {
         path: '/',
       });
     }
