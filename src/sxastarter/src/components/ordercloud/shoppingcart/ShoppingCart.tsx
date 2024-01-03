@@ -16,9 +16,9 @@ export const Default = (): JSX.Element => {
   const { lineItems } = useOcCurrentOrder();
 
   const cookies = new Cookies();
-  let currentCheckOutPath = '/check-out';
+  const currentCheckOutPath = '/check-out';
   if (cookies.get('currentcheckoutflow') !== null) {
-    currentCheckOutPath = cookies.get('currentcheckoutflow');
+    // currentCheckOutPath = cookies.get('currentcheckoutflow');
   }
 
   return (

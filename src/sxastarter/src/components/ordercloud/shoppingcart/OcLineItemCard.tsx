@@ -153,7 +153,9 @@ const OcLineItemCard: FunctionComponent<OcLineItemCardProps> = ({ lineItem, edit
                   height="50px"
                   onClick={() => setIsDeliveryInstructionsModalOpen(false)}
                 >
-                  <Text fontSize="18px">Add Delivery Instructions</Text>
+                  <Text fontSize="18px" mb="0px">
+                    Add Delivery Instructions
+                  </Text>
                 </Button>
                 <Button
                   type="button"
@@ -164,7 +166,9 @@ const OcLineItemCard: FunctionComponent<OcLineItemCardProps> = ({ lineItem, edit
                   height="50px"
                   onClick={() => setIsDeliveryInstructionsModalOpen(false)}
                 >
-                  <Text fontSize="18px">Cancel</Text>
+                  <Text fontSize="18px" mb="0px">
+                    Cancel
+                  </Text>
                 </Button>
               </HStack>
             </VStack>

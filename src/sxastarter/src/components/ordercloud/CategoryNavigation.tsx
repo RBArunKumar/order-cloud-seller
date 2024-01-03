@@ -54,7 +54,6 @@ export const Default = (props: ComponentProps): JSX.Element => {
       className={`category-navigation`}
       height="46px"
       minW="auto"
-      ml="188px"
       {...stylesObj}
     >
       {props.fields.Title.value}
