@@ -127,7 +127,7 @@ const OcProductDetail: FunctionComponent<ProductDetailProps> = ({
       <FavoritesListButton></FavoritesListButton>
       <HStack alignItems="flex-start">
         <Box>
-          <Image src={product.xp?.Images[0]?.ThumbnailUrl} aria-label={product.Name}></Image>
+          <Image src={product.xp?.image} aria-label={product.Name}></Image>
         </Box>
         <VStack textAlign="left" alignItems="left" p={3} position="relative" width="80%">
           <Box as={'header'}>

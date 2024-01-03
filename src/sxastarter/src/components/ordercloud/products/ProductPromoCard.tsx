@@ -42,7 +42,7 @@ const ProductPromoCard: FunctionComponent<ProductDetailProps> = ({
       >
         <Box className="product-promo-image" w="35%" rounded="lg" shadow="xl">
           <Image
-            src={product.xp?.Images[0]?.Url}
+            src={product.xp?.image}
             aria-label={product.Name}
             style={{ width: '100%' }}
             rounded="xl"

@@ -102,6 +102,10 @@ export const styles = {
           border: '10px solid #cccc',
           margin: '10px',
         },
+        '.show': {
+          border: '10px solid #cccc',
+          margin: '10px',
+        },
         '.chakra-container': {
           border: '10px solid #cccc',
           margin: '10px',

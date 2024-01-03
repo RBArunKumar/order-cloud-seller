@@ -18,7 +18,7 @@ const ProductCard: FunctionComponent<ProductCardProps> = ({ product }) => {
     <Card variant="">
       <FavoritesListButton></FavoritesListButton>
       <VStack h="full" justifyContent="space-between" p={2} alignSelf="stretch">
-        <Image src={product.xp?.Images[0]?.ThumbnailUrl} aria-label={product.Name}></Image>
+        <Image src={product.xp?.image} aria-label={product.Name}></Image>
         <VStack flex="1" justifyContent="space-between" alignItems="flex-start" p={[4, 2, 20, 6]}>
           <VStack w="100%" width="full">
             <Heading as="h3">{product.Name}</Heading>

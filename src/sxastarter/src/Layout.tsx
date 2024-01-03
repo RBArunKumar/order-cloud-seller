@@ -40,8 +40,8 @@ const Layout = ({ layoutData }: LayoutProps): JSX.Element => {
   // let ocClientAPIUrl = OrderCloudAPIUrl;
   // let ocScope = OrderCloudScope;
   // let xmcWebSiteTheme = XMCWebsiteTheme;
-  const ocClientId = '9EC38CE2-1E94-4CAE-8ADA-E1F271544D83'; //Generic Consumer Site
-  const ocClientAPIUrl = 'https://sandboxapi.ordercloud.io';
+  const ocClientId = '2A2898AD-CCC2-4EDC-8371-23E1C70DCB50'; //Generic Consumer Site
+  const ocClientAPIUrl = 'https://useast-sandbox.ordercloud.io';
   const ocScope = [
     'FullAccess',
     'Shopper',
